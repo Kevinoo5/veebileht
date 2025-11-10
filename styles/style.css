@@ -1,0 +1,160 @@
+html {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/028/217/528/non_2x/sofa-by-distressed-wall-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("https://th.bing.com/th/id/R.dc1002f23b0baa2866f8f94ea67f5a39?rik=roKOHHM648KD8A&riu=http%3a%2f%2f4.bp.blogspot.com%2f-LOLxoKx3UxE%2fT1RlrAdIcGI%2fAAAAAAAAAco%2fAGvHQ0yO_dY%2fs1600%2fsky-003.jpg&ehk=aOqc8GKObwLg0uyvh4rn0CuRdW1zPO1bJrqdUiVXyrg%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  border-bottom: 2px solid #ccc;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #f1eaea;
+  text-shadow: 3px 3px 5px rgb(32, 33, 34);
+  margin: 0;
+  text-align: center;
+  position: relative;
+  transform: translateX(150%);
+}
+
+.menu-icon {
+  font-size: 40px;
+  cursor: pointer;
+  color: #dfd8d8;
+  transition: color 0.3s;
+  user-select: none;
+}
+
+.menu-icon:hover {
+  color: #6e6c6c;
+}
+
+.nav-links {
+  position: absolute;
+  transform: translateX(-80%);
+  top: 55px;
+  right: 20px;
+  background-color: rgba(235, 237, 241, 0.97);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #050505;
+  font-weight: 600;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #0099cc;
+  color: white;
+}
+
+.nav-links.active {
+  max-height: 300px;
+  opacity: 1;
+  padding: 10px 0;
+}
+h2 {
+  font-size: 36px;
+  color: #0c0c0c;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  column-count: 1;
+  column-gap: 20px;
+  width: 60%;
+  font-size: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #01284e;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #005f8a;
+}
+.reviews {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  margin: 60px 0;
+  background-color: transparent;
+  position: absolute;
+  top: 700px;
+}
+
+.review-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  padding: 40px 30px;
+  max-width: 500px;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.5s ease;
+}
+
+.review-box p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.review-box h3 {
+  color: #555;
+  font-weight: 600;
+}
+.tähed {
+  color: gold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
