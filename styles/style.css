@@ -38,6 +38,10 @@ body {
   transform: translateX(150%);
 }
 
+.header a {
+  text-decoration: none;
+}
+
 .menu-icon {
   font-size: 40px;
   cursor: pointer;
