@@ -1,12 +1,11 @@
 .header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   align-items: center;
   background-image: url("https://th.bing.com/th/id/R.dc1002f23b0baa2866f8f94ea67f5a39?rik=roKOHHM648KD8A&riu=http%3a%2f%2f4.bp.blogspot.com%2f-LOLxoKx3UxE%2fT1RlrAdIcGI%2fAAAAAAAAAco%2fAGvHQ0yO_dY%2fs1600%2fsky-003.jpg&ehk=aOqc8GKObwLg0uyvh4rn0CuRdW1zPO1bJrqdUiVXyrg%3d&risl=&pid=ImgRaw&r=0");
   background-size: cover;
   border-bottom: 2px solid #69696c;
-  max-width: 1200px;
-  margin: 0 auto;
   position: relative;
 }
 .kontakt-main-container {
@@ -14,42 +13,27 @@
   justify-content: flex-start;
   align-items: flex-start;
   gap: 40px;
-  margin: 80px 40px;
+  padding: 60px;
 }
 
 .kontakt-main {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 26px;
-  flex:1;
+  flex: 1;
   height: 500px;
   max-width: 800px;
   padding: 30px;
   background-color: #e7e7e7;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
 .sotsiaal-icon {
-  width: 40px;
-  height: 40px;
-  margin: 10px 0;
-}
-.tagasi-container {
-  text-align: center;
-  margin: 40px 0;
+  width: 60px;
+  height: 60px;
 }
 
-.tagasi-btn {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #01284e;
-  color: white;
-  font-size: 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.tagasi-btn:hover {
-  background-color: #005f8a;
+.sotsiaal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

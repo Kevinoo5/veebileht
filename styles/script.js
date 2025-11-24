@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const menuIcon = document.getElementById("menuIcon");
   const navLinks = document.getElementById("navLinks");
 
@@ -9,11 +9,23 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   const reviews = [
-    { text: "Ostsin Couch havenist diivani ja olen väga rahul! Väga mugav ja stiilne.", author: "Mari K." },
-    { text: "Suurepärane teenindus ja kiire tarne! Soovitan soojalt.", author: "Jaan L." },
-    { text: "Diivan on tõesti mugav ja näeb välja täpselt nagu pildil.", author: "Ahven" },
+    {
+      text: "Ostsin Couch Havenist diivani ja olen väga rahul! Väga mugav ja stiilne.",
+      author: "Mari K.",
+    },
+    {
+      text: "Suurepärane teenindus ja kiire tarne! Soovitan soojalt.",
+      author: "Jaan L.",
+    },
+    {
+      text: "Diivan on tõesti mugav ja näeb välja täpselt nagu pildil.",
+      author: "Ahven",
+    },
     { text: "Olen väga rahul kvaliteedi ja hinnaga!", author: "Kevin N." },
-    { text: "Väga meeldiv ostukogemus – kindlasti tellin siit ka tulevikus.", author: "Marcus A." }
+    {
+      text: "Väga meeldiv ostukogemus – kindlasti tellin siit ka tulevikus.",
+      author: "Marcus A.",
+    },
   ];
 
   let current = 0;

@@ -55,18 +55,28 @@ body {
   background: transparent;
   z-index: 10;
   box-sizing: border-box;
+  border-bottom: 2px solid #69696c;
+  background-color: rgba(139, 139, 139, 0.7);
 }
 
-
 .header h1 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   font-size: 48px;
   color: #fff;
-  text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
   margin: 0;
   white-space: nowrap;
+}
+
+.header-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.header-text a {
+  text-decoration: none;
 }
 
 .menu-icon {
@@ -193,24 +203,52 @@ section {
 .kastid {
   width: 100%;
   max-width: 100%;
-  padding:  0;
-  margin: 0;
+  padding: 0;
+  margin: 40px auto;
 }
 
 /* määrab kastide laiuse ja borderid */
 .teksti-kast {
   width: 65%;
-  aspect-ratio: 4 / 1;
-  padding: 30px;
-  background-color: #999a92;
-  border: 1px solid #3a4149;
-  border-radius: 8px;
-  box-sizing: border-box;
+  aspect-ratio: auto;
+  min-height: 200px;
+  padding: 35px;
+  background: rgba(23, 29, 56, 0.719);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
 }
+
 .teksti-kast h2 {
   margin-top: 0;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.55);
 }
-/* joondab vasakule esimese ja kolmanda kasti jaoks */
+
+.teksti-kast p {
+  font-size: 1.5rem;
+  color: #cccccc;
+  margin-bottom: 18px;
+}
+
+.teksti-kast .btn {
+  display: inline-block;
+  padding: 22px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #5e43a7, #4f29b9);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.teksti-kast .btn:hover {
+  background: linear-gradient(135deg, #4f29b9, #3c0ac6);
+  transform: scale(1.05);
+}
+
 .vasak {
   float: left;
   clear: both;
@@ -218,16 +256,6 @@ section {
 /* joondab paremale teise kasti jaoks */
 .parem {
   float: right;
-  clear: both;
-}
-/* pealkirja joondamine*/
-.parem h2,
-.parem p {
-  text-align: right;
-}
-.kastid::after {
-  content: "";
-  display: block;
   clear: both;
 }
 
@@ -239,35 +267,36 @@ section {
   box-sizing: border-box;
 }
 
-.footer-container{
-  max-width: 1200px;
-  margin: 0 auto;
+.footer-container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 60px;
 }
 
 .footer-column {
   flex: 1 1 220px;
   min-width: 100px;
+  padding: 10px;
 }
 
 .footer-column h3 {
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .footer-column p,
 .footer-column a {
-  font-size: 16px;
+  font-size: 1.1rem;
   color: #fff;
   text-decoration: none;
   margin-bottom: 8px;
   display: block;
 }
 
-.footer-column a:hover{
-  color: #00bfff
+.footer-column a:hover {
+  color: #00bfff;
 }
