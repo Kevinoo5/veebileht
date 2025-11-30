@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
       author: "Marcus A.",
     },
   ];
-/* Constant hoiab meeles, milline review on hetkel nähtaval.
+/* Current hoiab meeles, milline review on hetkel nähtaval.
 const-id viitavad HTML elementidele, kus review tekst ja autor kuvatakse.
 */
   let current = 0;
