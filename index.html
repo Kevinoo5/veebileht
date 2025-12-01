@@ -3,50 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Couch haven</title>
+    <title>Couch Haven</title>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header class="header">
-      <h1>Couch haven</h1>
+      <div class="header-text">
+        <a href="index.html">
+          <h1>Couch Haven</h1>
+        </a>
+      </div>
       <div class="menu-icon" id="menuIcon">☰</div>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Avaleht</a>
+        <a href="pages/tooted.html">Tooted</a>
+        <a href="pages/kontakt.html">Kontakt</a>
+      </nav>
     </header>
 
-    <nav class="nav-links" id="navLinks">
-      <a href="index.html">Avaleht</a>
-      <a href="tooted.html">Tooted</a>
-      <a href="kontakt.html">Kontakt</a>
-    </nav>
+    <div class="hero">
+      <h1 class="hero-title">Couches 4 You</h1>
+    </div>
+
     <main>
-      <section>
-        <h2>Tere tulemast Couch haveni!</h2>
-        <p>
-          Meie veebileht on pühendatud mugavatele ja stiilsetele diivanitele,
-          mis muudavad teie kodu hubaseks ja kutsuvaks.
-        </p>
-        <p>
-          Meie valikus leiate erinevaid diivanitüüpe, alates klassikalistest
-          kuni kaasaegseteni, mis sobivad igasse interjööri.
-        </p>
-        <p>
-          Oleme pühendunud pakkuma kvaliteetseid tooteid ja suurepärast
-          klienditeenindust.
-        </p>
-        <p>
-          Sirvige meie tootevalikut ja leidke endale ideaalne diivan juba täna!
-        </p>
-        <a href="tooted.html" class="btn">Sirvi meie tooteid</a>
+      <section class="kastid">
+        <div class="teksti-kast vasak">
+          <h2>Kes me oleme?</h2>
+          <p>
+            Couch Haven ühendab stiili ja mugavust. Meie valikust leiad
+            diivanid, mis on loodud kestma – kaasaegse disaini, kvaliteetsete
+            materjalide ja hoolika käsitööga.
+          </p>
+          <a href="pages/tooted.html" class="btn">Tutvu meie maailmaga</a>
+        </div>
+
+        <div class="teksti-kast parem">
+          <h2>Soodsad eripakkumised</h2>
+          <p>
+            Tahad uuendada oma elutuba? Meie parimad pakkumised toovad
+            kvaliteedi sinuni hinnaga, mis teeb näo rõõmsaks. Vaata, mis on
+            praegu eriti hea hinnaga!
+          </p>
+          <a href="pages/tooted.html" class="btn">Vaata pakkumisi</a>
+        </div>
+
+        <div class="teksti-kast vasak">
+          <h2>Lõputult valikuid</h2>
+          <p>
+            Olgu su stiil modernne, klassikaline või midagi eriskummalist – meil
+            on diivan, mis sobib just sinu koju. Leia oma uus lemmik ja loo
+            ruum, kus tahad alati olla.
+          </p>
+          <a href="pages/tooted.html" class="btn">Sirvi kogu valikut</a>
+        </div>
       </section>
+
       <section class="reviews">
         <div class="review-box">
           <p id="review-text">
-            "Ostsin Couch havenist diivani ja olen väga rahul! Väga mugav ja
+            "Ostsin Couch Havenist diivani ja olen väga rahul! Väga mugav ja
             stiilne."
           </p>
           <div class="tähed">⭐⭐⭐⭐⭐</div>
           <h3 id="review-author">– Mari K.</h3>
         </div>
       </section>
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>Meist</h3>
+            <p>
+              Couch Haven on pereettevõte, mis pakub kvaliteetseid diivaneid
+              ning diivanite transporti üle Eesti.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h3>Kontakt</h3>
+            <p>Meil: info@couchhaven.ee</p>
+            <p>Telefon: +372 5555 5555</p>
+            <p>Aadress: Tartu mnt 10, Tallinn</p>
+          </div>
+          <div class="footer-column">
+            <h3>Tugi</h3>
+            <p>
+              Küsimused tellimuse, tarne või tagastuse kohta? Kirjuta või
+              helista.
+            </p>
+            <p>Avatud E–R 9:00–18:00.</p>
+          </div>
+        </div>
+      </footer>
     </main>
     <script src="styles/script.js"></script>
   </body>
