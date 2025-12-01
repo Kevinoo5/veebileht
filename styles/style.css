@@ -141,7 +141,7 @@ section {
   padding: 20px;
   background-color: transparent;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
   text-align: center;
   column-count: 1;
   column-gap: 20px;
@@ -216,6 +216,7 @@ section {
   background: rgba(23, 29, 56, 0.719);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
+  margin-bottom: 40px;
 }
 
 .teksti-kast h2 {
