@@ -51,3 +51,4 @@ const-id viitavad HTML elementidele, kus review tekst ja autor kuvatakse.
     setInterval(nextReview, 6000);
   }
 });
+//Marcus Adamson
